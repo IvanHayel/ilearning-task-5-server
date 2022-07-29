@@ -8,12 +8,12 @@ spring:
       ddl-auto: update
     open-in-view: 'false'
   datasource:
-    password: root
+    username: lpfpaaiejyyswv
+    password: 086ebcfa175bde0ecc31ae118b1e4df880514e6cc23d1725170a30dfc1066fd0
     driver-class-name: org.postgresql.Driver
-    username: postgres
-    url: jdbc:postgresql://localhost:5432/task_5
+    url: jdbc:postgresql://ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/de2t6q4afp54an
 cors:
-  allowed-origins: 'http://localhost:3000'
+  allowed-origins: 'https://ilearning-task-5-client.herokuapp.com/'
   allowed-methods: '*'
   allow-credentials: 'true'
   allowed-headers: '*'
