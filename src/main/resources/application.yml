@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        schema_update:
+          unique_constraint_strategy: RECREATE_QUIETLY
+    hibernate:
+      ddl-auto: update
+    open-in-view: 'false'
+  datasource:
+    password: root
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/task_5
+cors:
+  allowed-origins: 'http://localhost:3000'
+  allowed-methods: '*'
+  allow-credentials: 'true'
+  allowed-headers: '*'
+  mapping: '/**'
+web-socket:
+  app: '/app'
+  user: '/user'
+  broker: '/chat'
+  endpoint: '/ws'
+  allowed-origins: '*'
