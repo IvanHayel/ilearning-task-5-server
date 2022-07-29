@@ -2,6 +2,6 @@
 
 ## [📹 Youtube DEMO]()
 
-## [🚀 Heroku link]()
+## [🚀 Heroku link](https://ilearning-task-5-server.herokuapp.com/)
 
-## [🔗 Client link]()
+## [🔗 Client link](https://github.com/IvanHayel/ilearning-task-5-client)
